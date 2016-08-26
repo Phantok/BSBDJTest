@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CXJTabBarController.h
 //  BSB
 //
 //  Created by 崔雪娇 on 16/8/26.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CXJTabBarController : UITabBarController
 
 @end
-

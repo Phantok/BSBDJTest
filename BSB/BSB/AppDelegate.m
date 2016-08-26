@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "CXJTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -20,7 +20,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     //设置根视图控制器
-    self.window.rootViewController = [[ViewController alloc] init];
+    
+    self.window.rootViewController = [[CXJTabBarController alloc] init];
+    
+    
+    
     //显示窗口
     [self.window makeKeyAndVisible];
     return YES;

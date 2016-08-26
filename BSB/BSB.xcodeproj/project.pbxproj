@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		581CEE8E1D708BC5000F7845 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 581CEE8D1D708BC5000F7845 /* main.m */; };
 		581CEE911D708BC5000F7845 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 581CEE901D708BC5000F7845 /* AppDelegate.m */; };
-		581CEE941D708BC5000F7845 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581CEE931D708BC5000F7845 /* ViewController.m */; };
 		581CEE971D708BC5000F7845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581CEE951D708BC5000F7845 /* Main.storyboard */; };
 		581CEE991D708BC5000F7845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581CEE981D708BC5000F7845 /* Assets.xcassets */; };
+		581CEEA51D709660000F7845 /* CXJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581CEEA41D709660000F7845 /* CXJTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,11 +19,11 @@
 		581CEE8D1D708BC5000F7845 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		581CEE8F1D708BC5000F7845 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		581CEE901D708BC5000F7845 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		581CEE921D708BC5000F7845 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		581CEE931D708BC5000F7845 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		581CEE961D708BC5000F7845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		581CEE981D708BC5000F7845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		581CEE9D1D708BC5000F7845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581CEEA31D709660000F7845 /* CXJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXJTabBarController.h; sourceTree = "<group>"; };
+		581CEEA41D709660000F7845 /* CXJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXJTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				581CEE8F1D708BC5000F7845 /* AppDelegate.h */,
 				581CEE901D708BC5000F7845 /* AppDelegate.m */,
-				581CEE921D708BC5000F7845 /* ViewController.h */,
-				581CEE931D708BC5000F7845 /* ViewController.m */,
+				581CEEA31D709660000F7845 /* CXJTabBarController.h */,
+				581CEEA41D709660000F7845 /* CXJTabBarController.m */,
 				581CEE8C1D708BC5000F7845 /* Supporting Files */,
 			);
 			path = BSB;
@@ -102,6 +102,7 @@
 		581CEE811D708BC5000F7845 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CXJ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Phant;
 				TargetAttributes = {
@@ -145,8 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				581CEE941D708BC5000F7845 /* ViewController.m in Sources */,
 				581CEE911D708BC5000F7845 /* AppDelegate.m in Sources */,
+				581CEEA51D709660000F7845 /* CXJTabBarController.m in Sources */,
 				581CEE8E1D708BC5000F7845 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
